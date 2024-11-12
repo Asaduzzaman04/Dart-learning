@@ -8,8 +8,9 @@ void main() {
     29,
     'nepal'
   ]; // list is a collection of data ordered in object [its similer to array]
-
-  
+  final age = 10; //its a number data type
+ // age = "asad";  fianl value cannot be reassign
+  print(age);
 }
 
 
