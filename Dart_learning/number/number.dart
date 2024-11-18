@@ -39,6 +39,14 @@ void main() {
   ///(___truncate___) Returns an integer after discarding any fractional digits.
   var turn = 10.32434;
   print(turn.truncate()); // output => 10
+  var numberParsing = int.parse("10"); // output => 10;
+  var numberParsingDouble = double.parse("10"); // output => 10.0
 
-  
+  //parsing to string
+
+  print(numberParsing.toString()); // output => "10"
+  print(numberParsingDouble.toString()); // output => "10.0"
+  double parsingfloat = 3.12234;
+  String parsingNumber = parsingfloat.toStringAsFixed(2);// output => "3.12"
+   
 }
